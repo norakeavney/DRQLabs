@@ -1,5 +1,0 @@
-let a = ()=> {
-    console.log("");
-}
-
-
