@@ -9,7 +9,7 @@ let addTask = (task)=>{
     //(iii)
     console.log(task + " Has been added to the array");
     //(iv)
-    console.log("Elements in Array: " + stringArray.length)
+    console.log("Elements in Array: " + stringArray.length);
     
 }
 
@@ -26,3 +26,30 @@ let listAllTasks = ()=>{
 }
 
 listAllTasks();
+
+//3d
+//(i)
+let deleteTask = (task)=>{
+    //ii
+    let pos = stringArray.indexOf(task);
+
+    if(pos !== -1)
+    {
+        stringArray.splice(pos, 1);
+
+        //iii
+        console.log(task + " has been deleted from the array");
+
+        //iv
+        console.log("Elements in Array: " + stringArray.length);
+    }
+    else{
+        console.log("Nope! Not here");
+        console.log("Elements in Array: " + stringArray.length);
+    }
+
+
+}
+
+deleteTask('Bananas');
+deleteTask('Eric');
