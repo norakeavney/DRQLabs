@@ -14,7 +14,7 @@ let addTask = (task)=>{
 }
 
 //Call function
-addTask("Bananas");
+addTask(" Eat Bananas");
 
 //3c: Create a listAllTasks function:
 let listAllTasks = ()=>{
@@ -57,6 +57,6 @@ let deleteTask = (task)=>{
 }
 
 //Call function - is included
-deleteTask('Bananas');
+deleteTask('Eat Bananas');
 //Call function - is not included
-deleteTask('Eric');
+deleteTask('Do not Eat bananas ');
